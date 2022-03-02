@@ -11,7 +11,7 @@ on:
 
 jobs:
 
-  groovy-C++-gradle-ubuntu-latest:
+  groovy-cpp-gradle-ubuntu-latest:
     name: "Building C++ Applications Sample Groovy"
     runs-on: ubuntu-latest
     steps:
@@ -44,7 +44,7 @@ jobs:
           cat app/build.gradle
          
 
-  groovy-C++-gradle-ubuntu-2004:
+  groovy-cpp-gradle-ubuntu-2004:
     name: "Building C++ Applications Sample Groovy"
     runs-on: ubuntu-20.04
     steps:
@@ -76,7 +76,7 @@ jobs:
           ./gradlew build --scan
           cat app/build.gradle
 
-  groovy-C++-gradle-ubuntu-1804:
+  groovy-cpp-gradle-ubuntu-1804:
     name: "Building C++ Applications Sample Groovy"
     runs-on: ubuntu-18.04
     steps:
